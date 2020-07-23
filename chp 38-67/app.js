@@ -1,4 +1,3 @@
-
 //Task 1"
 // function accept(){
 // 	alert("your name is added");
@@ -251,17 +250,15 @@
 
 // Task # 10
 
-// function current(){
-//     var a = prompt("Enter Your Amount");
-//     var b = (Math.floor(a/100))
-//    var c = Math.floor((a%100)/50)
-//    var d=(Math.floor(((a%100)%50)/10))
-//    var e = Math.floor((a%100)%50)%10
-//    alert("you will have "+b +" hundred notes " +c +" fifty notes "+d+" ten notes and " +e +" rupees ")
-// }
-// current()
-
-
+function current(){
+    var a = prompt("Enter Your Amount");
+    var b = (Math.floor(a/100))
+   var c = Math.floor((a%100)/50)
+   var d=(Math.floor(((a%100)%50)/10))
+   var e = Math.floor((a%100)%50)%10
+   alert("you will have "+b +" hundred notes " +c +" fifty notes "+d+" ten notes and " +e +" rupees ")
+}
+current()
 
 
 
